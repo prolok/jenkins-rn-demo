@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		016FE6D3CBBED0D64EC03707BB35B40D /* ILPDFNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DD1C6F2B615A4249EA9A622271936B /* ILPDFNull.m */; };
+		057C2F5535DF957D0BA789C79A290BAC /* ILPDFStream.m in Sources */ = {isa = PBXBuildFile; fileRef = D04A2531B092C6D4CEA4DE0992DE026B /* ILPDFStream.m */; };
+		0E65A142157699C5B0FC8574311DE098 /* ILPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0757F53E328283DAA26C1A5F2A100BF8 /* ILPDFView.m */; };
+		1A93C16E9103C8BEA772AF8E7A7E6280 /* ILPDFView.h in Headers */ = {isa = PBXBuildFile; fileRef = 86EFA873E1C116742745DB8A4FCB2AA8 /* ILPDFView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AE64F5755FAA61E702EB3EFC724FDE4 /* ILPDFName.h in Headers */ = {isa = PBXBuildFile; fileRef = C5063C62735ABC1E06D44F5F0F4D9CA4 /* ILPDFName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D814D4D57B7BBC24EB564E8813525E4 /* ILPDFNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 0189C1860C2723BB1E4905E9E02BD314 /* ILPDFNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26C745E82887D1E0061316E1F3F83322 /* ILPDFArray.m in Sources */ = {isa = PBXBuildFile; fileRef = B44EBC632863040861F0C966C2834828 /* ILPDFArray.m */; };
+		330D62440CE2773D0D4D802EEE1180B8 /* ILPDFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = AD403240FF61BD65D30AF9A143BD3A26 /* ILPDFUtility.m */; };
+		36961169E639D1BE613A1C42AFA6195D /* ILPDFSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = C2014F8E44E881F76A68AABD70BFC77E /* ILPDFSerializer.m */; };
+		408350EBBA15504F8BD621BDA3EAF24B /* ILPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11798095CBBCEF43E633FD432646D0FA /* ILPDFViewController.m */; };
+		43DA26FF2638202E70513A0E0482F71B /* ILPDFFormChoiceField.h in Headers */ = {isa = PBXBuildFile; fileRef = 040CF169888864A031DB5DE7044A5782 /* ILPDFFormChoiceField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		467B76C8FE82774E4B2329DE997868CF /* ILPDFDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 15216FB9672917CC8C9D1B00502C0BF3 /* ILPDFDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46E4958A0168E3B9323E2691413232C9 /* ILPDFFormContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 949735619603204344C13C196934AE33 /* ILPDFFormContainer.m */; };
+		57AC5238CA7404BA7A732D008F05ED52 /* Pods-PDF_demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDFF1883FA22C3823E9419034A15D46 /* Pods-PDF_demo-dummy.m */; };
+		5C7CD3732EF7833D56D4BF75B8666768 /* ILPDFFormSignatureField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE6ABC2CDC2A8E472A09D858EE05711 /* ILPDFFormSignatureField.m */; };
+		5FD26A590F931040EE62E7C842D8B0D8 /* ILPDFFormButtonField.h in Headers */ = {isa = PBXBuildFile; fileRef = 41C451A300F2D208F21678AF8BC373A1 /* ILPDFFormButtonField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		652CDE8987C676E2842FE57D4C7EBB6D /* ILPDFStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B591CA89AE511D277D2605DD54ABCDE /* ILPDFStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		663D883D78C1EA3EBC73ACAA2EFCA0EE /* ILPDFObjectParser.h in Headers */ = {isa = PBXBuildFile; fileRef = F04C3A42467D247CAEC691179E2D3DBC /* ILPDFObjectParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FD99FE4E18AF0BE9CE5E42E6CB0E5CD /* Pods-PDF_demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E25B90EF820A041BDE1BFFDE3BBC72 /* Pods-PDF_demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		721FDB022114135D18FC43CE6EEC6F28 /* ILPDFObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FFD60368027F0B1A0CDDE95337A1482A /* ILPDFObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7262A911457796B85FB0092C90BCF50D /* ILPDFObjectParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1C09F1294E82E36BE4BB062C40B7EF /* ILPDFObjectParser.m */; };
+		769D8839CF85F423B0DC441DED88C076 /* ILPDFDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = E294D40672B9882251BF28ED8A379F74 /* ILPDFDictionary.m */; };
+		890B1215C79ECEE103997B5F2C308638 /* ILPDFUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABD02617A9DA2A8E01FD82313E25EAC /* ILPDFUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		939CFADE0173CCC73C7BDCC22D17DC15 /* ILPDFForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 583EFD21D801E87E3B744EBE9DF4AB56 /* ILPDFForm.m */; };
+		9CDBAE9B6102007F1A9107978AA18C7C /* ILPDFFormContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BA5109332A97DBC29240465B0BFC967 /* ILPDFFormContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A046977C46F5A93E349E95D83EC44454 /* ILPDFPage.m in Sources */ = {isa = PBXBuildFile; fileRef = DB574A013FFE721B1094C11A5E73DDB5 /* ILPDFPage.m */; };
+		A1156578184448640B1BE97B07734A43 /* ILPDFSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 139C5D337982794460E0DD3669E6628E /* ILPDFSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7A976B72C3F91C8B88A1B5B840CE22B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7512E09FD626FC8CE110467EAD517EA /* CoreGraphics.framework */; };
+		A83EB60FE479ECA3E510B82FD68E1974 /* ILPDFFormButtonField.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA76C53AE7D80ACB4495D104179428F /* ILPDFFormButtonField.m */; };
+		A90B8FDF986854FC59F2F6D410F6A261 /* ILPDFString.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B192D44FBDE5032CFD78E9F054F439D /* ILPDFString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9599F3A8DEB85276E050A8CB785DDED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */; };
+		B28019C82567D30E055C30506D3E1B6E /* ILPDFArray.h in Headers */ = {isa = PBXBuildFile; fileRef = B4890047EECB86D0F6EECB645297FB58 /* ILPDFArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB0D693D4BE99F09A6B8400EA5805814 /* ILPDFNull.h in Headers */ = {isa = PBXBuildFile; fileRef = C18907BBE60298D96C4605CA8B3D717D /* ILPDFNull.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD9DA9B71AFF8AB4F8AFE637BEB3E838 /* ILPDFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B130060959C4BA22BF40F06885ED8F5 /* ILPDFDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDDCDE8EA5CEBB138DCA20C215F0456A /* ILPDFString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B53DFC9063CB6EC5EA00D4F4510C184 /* ILPDFString.m */; };
+		C04EED96C46CB9FB0CDA0827BA71D18F /* ILPDFPage.h in Headers */ = {isa = PBXBuildFile; fileRef = AF12531D54100066148FA60D17430072 /* ILPDFPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C070D528F3D2C64549E579FBB1712282 /* ILPDFName.m in Sources */ = {isa = PBXBuildFile; fileRef = 4138CD6AF197F5753E7844DD7EC785B2 /* ILPDFName.m */; };
+		C16ED425F997743940AF643D85FAA219 /* ILPDFFormTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = A282591210877F8FAFF635E28F7071B3 /* ILPDFFormTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C45A122400FE773783B05466ED1CE8FD /* ILPDFNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C92EBB5569AFB39360DBE8485C0CC2 /* ILPDFNumber.m */; };
+		CA9621BACB59DE6CE1E96A543F69B493 /* ILPDFViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A768DF862BC4B12C2DA412E6956DB866 /* ILPDFViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF0A08F0F5575A614C3F2555CD516695 /* ILPDFKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 25126983B0DE0C21FA20E25027EDEBAC /* ILPDFKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2EC9ACE9BD4AD0B38B3ECA668A91552 /* ILPDFWidgetAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 419061D2826BA8AD4E79A9255E490414 /* ILPDFWidgetAnnotationView.m */; };
+		D4DCB812EF0C361D56D86DB8E4748CFA /* ILPDFFormChoiceField.m in Sources */ = {isa = PBXBuildFile; fileRef = F16865A951B937A215E07D22321F60E6 /* ILPDFFormChoiceField.m */; };
+		D66A42F368FA210AE2DA7D83301906E0 /* ILPDFForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C4505F7597337C03784823BC258CE60 /* ILPDFForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D70D4396B4EB82013B1F610EC2D31683 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */; };
+		E72156DDE49863B8294FBB45054F6DDE /* ILPDFFormSignatureField.h in Headers */ = {isa = PBXBuildFile; fileRef = 209F009CE8AF67EAE8DE1EFF9C18E509 /* ILPDFFormSignatureField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F12023B5AEC4D1B1AE99FE88B0E5F087 /* ILPDFKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E42DE7312E344BBD1F270412D73FC6 /* ILPDFKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F46CFFB5B95AA5FC553C15A1AEBA014F /* ILPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 86320188AE4B5D1A4D80E937742D69F1 /* ILPDFDocument.m */; };
+		F52FF858639D2C7030F77672DBF4DDB4 /* ILPDFFormTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D3C94345DBD96AF2438BAFBB774AC3 /* ILPDFFormTextField.m */; };
+		F664E4F0DACA46282265CCE37A2B7B6D /* ILPDFWidgetAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = E57BFC366ADA9A5FFCC0AB4379DED088 /* ILPDFWidgetAnnotationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F86C6091601F2271D8F5D7415BE96693 /* ILPDFKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFA2FFC09FCD7862C866BA2543814ED /* ILPDFKit-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9760248BF22424EC89D64CD2E08E0D7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FD5B749751EAE29FAE355FB9DBD3FBA;
+			remoteInfo = ILPDFKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0189C1860C2723BB1E4905E9E02BD314 /* ILPDFNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFNumber.h; path = ILPDFKit/Model/Objects/ILPDFNumber.h; sourceTree = "<group>"; };
+		01ADAEBDAE50B16BEF6009A7E825289A /* Pods-PDF_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDF_demo.debug.xcconfig"; sourceTree = "<group>"; };
+		040CF169888864A031DB5DE7044A5782 /* ILPDFFormChoiceField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFFormChoiceField.h; path = ILPDFKit/View/ILPDFFormChoiceField.h; sourceTree = "<group>"; };
+		05831BD58B29872208088C48FCF8FD3D /* Pods-PDF_demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PDF_demo-frameworks.sh"; sourceTree = "<group>"; };
+		0757F53E328283DAA26C1A5F2A100BF8 /* ILPDFView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFView.m; path = ILPDFKit/View/ILPDFView.m; sourceTree = "<group>"; };
+		08240545665A2EFA6CA9773CCC7AECEF /* Pods_PDF_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PDF_demo.framework; path = "Pods-PDF_demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ABD02617A9DA2A8E01FD82313E25EAC /* ILPDFUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFUtility.h; path = ILPDFKit/Utility/ILPDFUtility.h; sourceTree = "<group>"; };
+		11798095CBBCEF43E633FD432646D0FA /* ILPDFViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFViewController.m; path = ILPDFKit/Controller/ILPDFViewController.m; sourceTree = "<group>"; };
+		139C5D337982794460E0DD3669E6628E /* ILPDFSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFSerializer.h; path = ILPDFKit/Controller/ILPDFSerializer.h; sourceTree = "<group>"; };
+		15216FB9672917CC8C9D1B00502C0BF3 /* ILPDFDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFDictionary.h; path = ILPDFKit/Model/Objects/ILPDFDictionary.h; sourceTree = "<group>"; };
+		209F009CE8AF67EAE8DE1EFF9C18E509 /* ILPDFFormSignatureField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFFormSignatureField.h; path = ILPDFKit/View/ILPDFFormSignatureField.h; sourceTree = "<group>"; };
+		25126983B0DE0C21FA20E25027EDEBAC /* ILPDFKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFKit.h; path = ILPDFKit/ILPDFKit.h; sourceTree = "<group>"; };
+		2B53DFC9063CB6EC5EA00D4F4510C184 /* ILPDFString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFString.m; path = ILPDFKit/Model/Objects/ILPDFString.m; sourceTree = "<group>"; };
+		3EE6ABC2CDC2A8E472A09D858EE05711 /* ILPDFFormSignatureField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFFormSignatureField.m; path = ILPDFKit/View/ILPDFFormSignatureField.m; sourceTree = "<group>"; };
+		4138CD6AF197F5753E7844DD7EC785B2 /* ILPDFName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFName.m; path = ILPDFKit/Model/Objects/ILPDFName.m; sourceTree = "<group>"; };
+		419061D2826BA8AD4E79A9255E490414 /* ILPDFWidgetAnnotationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFWidgetAnnotationView.m; path = ILPDFKit/View/ILPDFWidgetAnnotationView.m; sourceTree = "<group>"; };
+		41C451A300F2D208F21678AF8BC373A1 /* ILPDFFormButtonField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFFormButtonField.h; path = ILPDFKit/View/ILPDFFormButtonField.h; sourceTree = "<group>"; };
+		4A9886F78A40A173BA807C8E78C1A875 /* Pods-PDF_demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PDF_demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4BA5109332A97DBC29240465B0BFC967 /* ILPDFFormContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFFormContainer.h; path = ILPDFKit/Model/ILPDFFormContainer.h; sourceTree = "<group>"; };
+		57CE5E6BA1122B9EC2D50DDC6DDCC052 /* ILPDFKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ILPDFKit.framework; path = ILPDFKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		583EFD21D801E87E3B744EBE9DF4AB56 /* ILPDFForm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFForm.m; path = ILPDFKit/Model/ILPDFForm.m; sourceTree = "<group>"; };
+		5B0BAFAC88626FF72C7934B9509B595B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B192D44FBDE5032CFD78E9F054F439D /* ILPDFString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFString.h; path = ILPDFKit/Model/Objects/ILPDFString.h; sourceTree = "<group>"; };
+		63C92EBB5569AFB39360DBE8485C0CC2 /* ILPDFNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFNumber.m; path = ILPDFKit/Model/Objects/ILPDFNumber.m; sourceTree = "<group>"; };
+		64B841E347541D4A8836111E94D01DC3 /* ILPDFKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ILPDFKit.xcconfig; sourceTree = "<group>"; };
+		6CFA2FFC09FCD7862C866BA2543814ED /* ILPDFKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ILPDFKit-dummy.m"; sourceTree = "<group>"; };
+		77E0A0F01344A921D426A0F773C976F4 /* ILPDFKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ILPDFKit.modulemap; sourceTree = "<group>"; };
+		7A74B5FBCD56491E0D3B50F1B1B8BA91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85DD1C6F2B615A4249EA9A622271936B /* ILPDFNull.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFNull.m; path = ILPDFKit/Model/Objects/ILPDFNull.m; sourceTree = "<group>"; };
+		86320188AE4B5D1A4D80E937742D69F1 /* ILPDFDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFDocument.m; path = ILPDFKit/Model/ILPDFDocument.m; sourceTree = "<group>"; };
+		86EFA873E1C116742745DB8A4FCB2AA8 /* ILPDFView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFView.h; path = ILPDFKit/View/ILPDFView.h; sourceTree = "<group>"; };
+		8B591CA89AE511D277D2605DD54ABCDE /* ILPDFStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFStream.h; path = ILPDFKit/Model/Objects/ILPDFStream.h; sourceTree = "<group>"; };
+		8C4505F7597337C03784823BC258CE60 /* ILPDFForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFForm.h; path = ILPDFKit/Model/ILPDFForm.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		949735619603204344C13C196934AE33 /* ILPDFFormContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFFormContainer.m; path = ILPDFKit/Model/ILPDFFormContainer.m; sourceTree = "<group>"; };
+		9B130060959C4BA22BF40F06885ED8F5 /* ILPDFDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFDocument.h; path = ILPDFKit/Model/ILPDFDocument.h; sourceTree = "<group>"; };
+		9FE46BEC3D8AEDA932CE9B7A9D5DF51F /* Pods-PDF_demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PDF_demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		A282591210877F8FAFF635E28F7071B3 /* ILPDFFormTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFFormTextField.h; path = ILPDFKit/View/ILPDFFormTextField.h; sourceTree = "<group>"; };
+		A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A768DF862BC4B12C2DA412E6956DB866 /* ILPDFViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFViewController.h; path = ILPDFKit/Controller/ILPDFViewController.h; sourceTree = "<group>"; };
+		A7B5AD920C2D3B3226DB407E5A70DC50 /* Pods-PDF_demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PDF_demo-resources.sh"; sourceTree = "<group>"; };
+		AD403240FF61BD65D30AF9A143BD3A26 /* ILPDFUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFUtility.m; path = ILPDFKit/Utility/ILPDFUtility.m; sourceTree = "<group>"; };
+		AEA76C53AE7D80ACB4495D104179428F /* ILPDFFormButtonField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFFormButtonField.m; path = ILPDFKit/View/ILPDFFormButtonField.m; sourceTree = "<group>"; };
+		AF12531D54100066148FA60D17430072 /* ILPDFPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFPage.h; path = ILPDFKit/Model/ILPDFPage.h; sourceTree = "<group>"; };
+		B44EBC632863040861F0C966C2834828 /* ILPDFArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFArray.m; path = ILPDFKit/Model/Objects/ILPDFArray.m; sourceTree = "<group>"; };
+		B4890047EECB86D0F6EECB645297FB58 /* ILPDFArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFArray.h; path = ILPDFKit/Model/Objects/ILPDFArray.h; sourceTree = "<group>"; };
+		C0E25B90EF820A041BDE1BFFDE3BBC72 /* Pods-PDF_demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PDF_demo-umbrella.h"; sourceTree = "<group>"; };
+		C18907BBE60298D96C4605CA8B3D717D /* ILPDFNull.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFNull.h; path = ILPDFKit/Model/Objects/ILPDFNull.h; sourceTree = "<group>"; };
+		C2014F8E44E881F76A68AABD70BFC77E /* ILPDFSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFSerializer.m; path = ILPDFKit/Controller/ILPDFSerializer.m; sourceTree = "<group>"; };
+		C294DBDC06FBDED2FE09B178E2A16DAA /* ILPDFKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ILPDFKit-prefix.pch"; sourceTree = "<group>"; };
+		C5063C62735ABC1E06D44F5F0F4D9CA4 /* ILPDFName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFName.h; path = ILPDFKit/Model/Objects/ILPDFName.h; sourceTree = "<group>"; };
+		CEDFF1883FA22C3823E9419034A15D46 /* Pods-PDF_demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PDF_demo-dummy.m"; sourceTree = "<group>"; };
+		D04A2531B092C6D4CEA4DE0992DE026B /* ILPDFStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFStream.m; path = ILPDFKit/Model/Objects/ILPDFStream.m; sourceTree = "<group>"; };
+		D7E42DE7312E344BBD1F270412D73FC6 /* ILPDFKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ILPDFKit-umbrella.h"; sourceTree = "<group>"; };
+		DB574A013FFE721B1094C11A5E73DDB5 /* ILPDFPage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFPage.m; path = ILPDFKit/Model/ILPDFPage.m; sourceTree = "<group>"; };
+		DD8985FCF07628F8374FC7DC8F1E3E30 /* Pods-PDF_demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PDF_demo.modulemap"; sourceTree = "<group>"; };
+		E294D40672B9882251BF28ED8A379F74 /* ILPDFDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFDictionary.m; path = ILPDFKit/Model/Objects/ILPDFDictionary.m; sourceTree = "<group>"; };
+		E57BFC366ADA9A5FFCC0AB4379DED088 /* ILPDFWidgetAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFWidgetAnnotationView.h; path = ILPDFKit/View/ILPDFWidgetAnnotationView.h; sourceTree = "<group>"; };
+		E7512E09FD626FC8CE110467EAD517EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		F04C3A42467D247CAEC691179E2D3DBC /* ILPDFObjectParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFObjectParser.h; path = ILPDFKit/Utility/ILPDFObjectParser.h; sourceTree = "<group>"; };
+		F16865A951B937A215E07D22321F60E6 /* ILPDFFormChoiceField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFFormChoiceField.m; path = ILPDFKit/View/ILPDFFormChoiceField.m; sourceTree = "<group>"; };
+		F4D3C94345DBD96AF2438BAFBB774AC3 /* ILPDFFormTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFFormTextField.m; path = ILPDFKit/View/ILPDFFormTextField.m; sourceTree = "<group>"; };
+		FA216FF68BDECB2DC0B1604CB28D912F /* Pods-PDF_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDF_demo.release.xcconfig"; sourceTree = "<group>"; };
+		FB1C09F1294E82E36BE4BB062C40B7EF /* ILPDFObjectParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ILPDFObjectParser.m; path = ILPDFKit/Utility/ILPDFObjectParser.m; sourceTree = "<group>"; };
+		FFD60368027F0B1A0CDDE95337A1482A /* ILPDFObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ILPDFObject.h; path = ILPDFKit/Model/Objects/ILPDFObject.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DB0B9898910A48D822ED6278D66B8FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70D4396B4EB82013B1F610EC2D31683 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59F4F3EFC0FA0022372E17F344C6BA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A976B72C3F91C8B88A1B5B840CE22B /* CoreGraphics.framework in Frameworks */,
+				A9599F3A8DEB85276E050A8CB785DDED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01EFFCDD1655BDEB594A816A3C1D4288 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77E0A0F01344A921D426A0F773C976F4 /* ILPDFKit.modulemap */,
+				64B841E347541D4A8836111E94D01DC3 /* ILPDFKit.xcconfig */,
+				6CFA2FFC09FCD7862C866BA2543814ED /* ILPDFKit-dummy.m */,
+				C294DBDC06FBDED2FE09B178E2A16DAA /* ILPDFKit-prefix.pch */,
+				D7E42DE7312E344BBD1F270412D73FC6 /* ILPDFKit-umbrella.h */,
+				7A74B5FBCD56491E0D3B50F1B1B8BA91 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ILPDFKit";
+			sourceTree = "<group>";
+		};
+		0F064D04E379CE8E07B6BDB97C593316 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E7512E09FD626FC8CE110467EAD517EA /* CoreGraphics.framework */,
+				A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F064D04E379CE8E07B6BDB97C593316 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		471EC94C8CBCF4BFC95BD4D98C2BCCAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				661127B1F91CECD0E4B1DADD12095DD1 /* ILPDFKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		661127B1F91CECD0E4B1DADD12095DD1 /* ILPDFKit */ = {
+			isa = PBXGroup;
+			children = (
+				B4890047EECB86D0F6EECB645297FB58 /* ILPDFArray.h */,
+				B44EBC632863040861F0C966C2834828 /* ILPDFArray.m */,
+				15216FB9672917CC8C9D1B00502C0BF3 /* ILPDFDictionary.h */,
+				E294D40672B9882251BF28ED8A379F74 /* ILPDFDictionary.m */,
+				9B130060959C4BA22BF40F06885ED8F5 /* ILPDFDocument.h */,
+				86320188AE4B5D1A4D80E937742D69F1 /* ILPDFDocument.m */,
+				8C4505F7597337C03784823BC258CE60 /* ILPDFForm.h */,
+				583EFD21D801E87E3B744EBE9DF4AB56 /* ILPDFForm.m */,
+				41C451A300F2D208F21678AF8BC373A1 /* ILPDFFormButtonField.h */,
+				AEA76C53AE7D80ACB4495D104179428F /* ILPDFFormButtonField.m */,
+				040CF169888864A031DB5DE7044A5782 /* ILPDFFormChoiceField.h */,
+				F16865A951B937A215E07D22321F60E6 /* ILPDFFormChoiceField.m */,
+				4BA5109332A97DBC29240465B0BFC967 /* ILPDFFormContainer.h */,
+				949735619603204344C13C196934AE33 /* ILPDFFormContainer.m */,
+				209F009CE8AF67EAE8DE1EFF9C18E509 /* ILPDFFormSignatureField.h */,
+				3EE6ABC2CDC2A8E472A09D858EE05711 /* ILPDFFormSignatureField.m */,
+				A282591210877F8FAFF635E28F7071B3 /* ILPDFFormTextField.h */,
+				F4D3C94345DBD96AF2438BAFBB774AC3 /* ILPDFFormTextField.m */,
+				25126983B0DE0C21FA20E25027EDEBAC /* ILPDFKit.h */,
+				C5063C62735ABC1E06D44F5F0F4D9CA4 /* ILPDFName.h */,
+				4138CD6AF197F5753E7844DD7EC785B2 /* ILPDFName.m */,
+				C18907BBE60298D96C4605CA8B3D717D /* ILPDFNull.h */,
+				85DD1C6F2B615A4249EA9A622271936B /* ILPDFNull.m */,
+				0189C1860C2723BB1E4905E9E02BD314 /* ILPDFNumber.h */,
+				63C92EBB5569AFB39360DBE8485C0CC2 /* ILPDFNumber.m */,
+				FFD60368027F0B1A0CDDE95337A1482A /* ILPDFObject.h */,
+				F04C3A42467D247CAEC691179E2D3DBC /* ILPDFObjectParser.h */,
+				FB1C09F1294E82E36BE4BB062C40B7EF /* ILPDFObjectParser.m */,
+				AF12531D54100066148FA60D17430072 /* ILPDFPage.h */,
+				DB574A013FFE721B1094C11A5E73DDB5 /* ILPDFPage.m */,
+				139C5D337982794460E0DD3669E6628E /* ILPDFSerializer.h */,
+				C2014F8E44E881F76A68AABD70BFC77E /* ILPDFSerializer.m */,
+				8B591CA89AE511D277D2605DD54ABCDE /* ILPDFStream.h */,
+				D04A2531B092C6D4CEA4DE0992DE026B /* ILPDFStream.m */,
+				5B192D44FBDE5032CFD78E9F054F439D /* ILPDFString.h */,
+				2B53DFC9063CB6EC5EA00D4F4510C184 /* ILPDFString.m */,
+				0ABD02617A9DA2A8E01FD82313E25EAC /* ILPDFUtility.h */,
+				AD403240FF61BD65D30AF9A143BD3A26 /* ILPDFUtility.m */,
+				86EFA873E1C116742745DB8A4FCB2AA8 /* ILPDFView.h */,
+				0757F53E328283DAA26C1A5F2A100BF8 /* ILPDFView.m */,
+				A768DF862BC4B12C2DA412E6956DB866 /* ILPDFViewController.h */,
+				11798095CBBCEF43E633FD432646D0FA /* ILPDFViewController.m */,
+				E57BFC366ADA9A5FFCC0AB4379DED088 /* ILPDFWidgetAnnotationView.h */,
+				419061D2826BA8AD4E79A9255E490414 /* ILPDFWidgetAnnotationView.m */,
+				01EFFCDD1655BDEB594A816A3C1D4288 /* Support Files */,
+			);
+			name = ILPDFKit;
+			path = ILPDFKit;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				471EC94C8CBCF4BFC95BD4D98C2BCCAC /* Pods */,
+				E957E2FECA9AD05A66F3949F8B41EFB1 /* Products */,
+				A637C785DA560DDAF6DCABC8587D18F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A637C785DA560DDAF6DCABC8587D18F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D95745DDBF171E944032568CBE7A81A5 /* Pods-PDF_demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D95745DDBF171E944032568CBE7A81A5 /* Pods-PDF_demo */ = {
+			isa = PBXGroup;
+			children = (
+				5B0BAFAC88626FF72C7934B9509B595B /* Info.plist */,
+				DD8985FCF07628F8374FC7DC8F1E3E30 /* Pods-PDF_demo.modulemap */,
+				4A9886F78A40A173BA807C8E78C1A875 /* Pods-PDF_demo-acknowledgements.markdown */,
+				9FE46BEC3D8AEDA932CE9B7A9D5DF51F /* Pods-PDF_demo-acknowledgements.plist */,
+				CEDFF1883FA22C3823E9419034A15D46 /* Pods-PDF_demo-dummy.m */,
+				05831BD58B29872208088C48FCF8FD3D /* Pods-PDF_demo-frameworks.sh */,
+				A7B5AD920C2D3B3226DB407E5A70DC50 /* Pods-PDF_demo-resources.sh */,
+				C0E25B90EF820A041BDE1BFFDE3BBC72 /* Pods-PDF_demo-umbrella.h */,
+				01ADAEBDAE50B16BEF6009A7E825289A /* Pods-PDF_demo.debug.xcconfig */,
+				FA216FF68BDECB2DC0B1604CB28D912F /* Pods-PDF_demo.release.xcconfig */,
+			);
+			name = "Pods-PDF_demo";
+			path = "Target Support Files/Pods-PDF_demo";
+			sourceTree = "<group>";
+		};
+		E957E2FECA9AD05A66F3949F8B41EFB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57CE5E6BA1122B9EC2D50DDC6DDCC052 /* ILPDFKit.framework */,
+				08240545665A2EFA6CA9773CCC7AECEF /* Pods_PDF_demo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C3EB614E3809E61A34A9780B76F09A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD99FE4E18AF0BE9CE5E42E6CB0E5CD /* Pods-PDF_demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F633618BB9CCEF1F18C6613FF6C7731C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28019C82567D30E055C30506D3E1B6E /* ILPDFArray.h in Headers */,
+				467B76C8FE82774E4B2329DE997868CF /* ILPDFDictionary.h in Headers */,
+				BD9DA9B71AFF8AB4F8AFE637BEB3E838 /* ILPDFDocument.h in Headers */,
+				D66A42F368FA210AE2DA7D83301906E0 /* ILPDFForm.h in Headers */,
+				5FD26A590F931040EE62E7C842D8B0D8 /* ILPDFFormButtonField.h in Headers */,
+				43DA26FF2638202E70513A0E0482F71B /* ILPDFFormChoiceField.h in Headers */,
+				9CDBAE9B6102007F1A9107978AA18C7C /* ILPDFFormContainer.h in Headers */,
+				E72156DDE49863B8294FBB45054F6DDE /* ILPDFFormSignatureField.h in Headers */,
+				C16ED425F997743940AF643D85FAA219 /* ILPDFFormTextField.h in Headers */,
+				F12023B5AEC4D1B1AE99FE88B0E5F087 /* ILPDFKit-umbrella.h in Headers */,
+				CF0A08F0F5575A614C3F2555CD516695 /* ILPDFKit.h in Headers */,
+				1AE64F5755FAA61E702EB3EFC724FDE4 /* ILPDFName.h in Headers */,
+				BB0D693D4BE99F09A6B8400EA5805814 /* ILPDFNull.h in Headers */,
+				1D814D4D57B7BBC24EB564E8813525E4 /* ILPDFNumber.h in Headers */,
+				721FDB022114135D18FC43CE6EEC6F28 /* ILPDFObject.h in Headers */,
+				663D883D78C1EA3EBC73ACAA2EFCA0EE /* ILPDFObjectParser.h in Headers */,
+				C04EED96C46CB9FB0CDA0827BA71D18F /* ILPDFPage.h in Headers */,
+				A1156578184448640B1BE97B07734A43 /* ILPDFSerializer.h in Headers */,
+				652CDE8987C676E2842FE57D4C7EBB6D /* ILPDFStream.h in Headers */,
+				A90B8FDF986854FC59F2F6D410F6A261 /* ILPDFString.h in Headers */,
+				890B1215C79ECEE103997B5F2C308638 /* ILPDFUtility.h in Headers */,
+				1A93C16E9103C8BEA772AF8E7A7E6280 /* ILPDFView.h in Headers */,
+				CA9621BACB59DE6CE1E96A543F69B493 /* ILPDFViewController.h in Headers */,
+				F664E4F0DACA46282265CCE37A2B7B6D /* ILPDFWidgetAnnotationView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FD5B749751EAE29FAE355FB9DBD3FBA /* ILPDFKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEEBD86A0D551174DEF88D38ECA62A64 /* Build configuration list for PBXNativeTarget "ILPDFKit" */;
+			buildPhases = (
+				736F5F779EAF534319213D8EE25A9919 /* Sources */,
+				F59F4F3EFC0FA0022372E17F344C6BA8 /* Frameworks */,
+				F633618BB9CCEF1F18C6613FF6C7731C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ILPDFKit;
+			productName = ILPDFKit;
+			productReference = 57CE5E6BA1122B9EC2D50DDC6DDCC052 /* ILPDFKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D32F9B1E9891F2555BF0E2558D8DDA4 /* Pods-PDF_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DD8ECFB7B97192C304BC5834F75C753 /* Build configuration list for PBXNativeTarget "Pods-PDF_demo" */;
+			buildPhases = (
+				F68DCFD437A81337EFBBA5975AE69BDF /* Sources */,
+				4DB0B9898910A48D822ED6278D66B8FB /* Frameworks */,
+				3C3EB614E3809E61A34A9780B76F09A7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89C624A43AE8308B96D5C6EF8867E1A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-PDF_demo";
+			productName = "Pods-PDF_demo";
+			productReference = 08240545665A2EFA6CA9773CCC7AECEF /* Pods_PDF_demo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E957E2FECA9AD05A66F3949F8B41EFB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FD5B749751EAE29FAE355FB9DBD3FBA /* ILPDFKit */,
+				8D32F9B1E9891F2555BF0E2558D8DDA4 /* Pods-PDF_demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		736F5F779EAF534319213D8EE25A9919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C745E82887D1E0061316E1F3F83322 /* ILPDFArray.m in Sources */,
+				769D8839CF85F423B0DC441DED88C076 /* ILPDFDictionary.m in Sources */,
+				F46CFFB5B95AA5FC553C15A1AEBA014F /* ILPDFDocument.m in Sources */,
+				939CFADE0173CCC73C7BDCC22D17DC15 /* ILPDFForm.m in Sources */,
+				A83EB60FE479ECA3E510B82FD68E1974 /* ILPDFFormButtonField.m in Sources */,
+				D4DCB812EF0C361D56D86DB8E4748CFA /* ILPDFFormChoiceField.m in Sources */,
+				46E4958A0168E3B9323E2691413232C9 /* ILPDFFormContainer.m in Sources */,
+				5C7CD3732EF7833D56D4BF75B8666768 /* ILPDFFormSignatureField.m in Sources */,
+				F52FF858639D2C7030F77672DBF4DDB4 /* ILPDFFormTextField.m in Sources */,
+				F86C6091601F2271D8F5D7415BE96693 /* ILPDFKit-dummy.m in Sources */,
+				C070D528F3D2C64549E579FBB1712282 /* ILPDFName.m in Sources */,
+				016FE6D3CBBED0D64EC03707BB35B40D /* ILPDFNull.m in Sources */,
+				C45A122400FE773783B05466ED1CE8FD /* ILPDFNumber.m in Sources */,
+				7262A911457796B85FB0092C90BCF50D /* ILPDFObjectParser.m in Sources */,
+				A046977C46F5A93E349E95D83EC44454 /* ILPDFPage.m in Sources */,
+				36961169E639D1BE613A1C42AFA6195D /* ILPDFSerializer.m in Sources */,
+				057C2F5535DF957D0BA789C79A290BAC /* ILPDFStream.m in Sources */,
+				BDDCDE8EA5CEBB138DCA20C215F0456A /* ILPDFString.m in Sources */,
+				330D62440CE2773D0D4D802EEE1180B8 /* ILPDFUtility.m in Sources */,
+				0E65A142157699C5B0FC8574311DE098 /* ILPDFView.m in Sources */,
+				408350EBBA15504F8BD621BDA3EAF24B /* ILPDFViewController.m in Sources */,
+				D2EC9ACE9BD4AD0B38B3ECA668A91552 /* ILPDFWidgetAnnotationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68DCFD437A81337EFBBA5975AE69BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57AC5238CA7404BA7A732D008F05ED52 /* Pods-PDF_demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89C624A43AE8308B96D5C6EF8867E1A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ILPDFKit;
+			target = 0FD5B749751EAE29FAE355FB9DBD3FBA /* ILPDFKit */;
+			targetProxy = 9760248BF22424EC89D64CD2E08E0D7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		07CBF1352A31524EC1A660BFF4725A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B841E347541D4A8836111E94D01DC3 /* ILPDFKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ILPDFKit/ILPDFKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ILPDFKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ILPDFKit/ILPDFKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ILPDFKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7FBDCA87B310D1364DEDCA3435D13BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA216FF68BDECB2DC0B1604CB28D912F /* Pods-PDF_demo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PDF_demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PDF_demo/Pods-PDF_demo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PDF_demo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7630726C8A9C5A77AAEE21F1E83EC05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01ADAEBDAE50B16BEF6009A7E825289A /* Pods-PDF_demo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PDF_demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PDF_demo/Pods-PDF_demo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PDF_demo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB3332A85DBF48C5F134FDF6BEC2C2C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B841E347541D4A8836111E94D01DC3 /* ILPDFKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ILPDFKit/ILPDFKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ILPDFKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ILPDFKit/ILPDFKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ILPDFKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DD8ECFB7B97192C304BC5834F75C753 /* Build configuration list for PBXNativeTarget "Pods-PDF_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7630726C8A9C5A77AAEE21F1E83EC05 /* Debug */,
+				7FBDCA87B310D1364DEDCA3435D13BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEEBD86A0D551174DEF88D38ECA62A64 /* Build configuration list for PBXNativeTarget "ILPDFKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3332A85DBF48C5F134FDF6BEC2C2C1 /* Debug */,
+				07CBF1352A31524EC1A660BFF4725A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
